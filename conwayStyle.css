@@ -1,0 +1,30 @@
+body {
+	background-color: lightgrey;
+}
+button {
+	min-width: 300px;
+	min-height: 50px;
+	color: white;
+	background-color: rgb(40, 40, 40);
+	border-radius: 25px;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+table, tr, td {
+	border-collapse: collapse;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+}
+.liveTile, .deadTile {
+	width: 5px;
+	height: 5px;
+}
+.liveTile {
+	color: gold;
+	background-color: gold;
+}
+.deadTile {
+	color: navy;
+	background-color: navy;
+}
